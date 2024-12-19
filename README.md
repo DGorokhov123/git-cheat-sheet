@@ -46,11 +46,15 @@ modified                     // файл изменен с последнего 
 staged + modified            // файл добавлен, а потом изменен (staged неизмененная версия)
 ```
 ```
-git add readme.txt           // добавить конкретный файл
+            STAGE / UNSTAGE
 git add .                    // добавить все в текущей папке
 git add --all                // добавить все файлы в репозитории
+git add <file>               // добавить конкретный файл
 git restore --staged <file>  // убрать добавление файла (unstage)
 git restore --staged .       // Unstage все файлы
+```
+```
+git restore <file>           // откатить modified файл
 ```
 ## Коммиты и загрузки
 ```
