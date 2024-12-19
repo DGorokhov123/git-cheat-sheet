@@ -40,6 +40,16 @@ git add readme.txt           // добавить конкретный файл
 git add .                    // добавить все в текущей папке
 git add --all                // добавить все файлы в репозитории
 ```
+
+```mermaid
+graph LR;
+untracked -- "git add" --> staged;
+staged -- "git commit" --> tracked;
+tracked -- "writing code" --> modified;
+modified -- "git add" --> staged;
+staged -- "writing code" --> modified;
+```
+
 ## Коммиты и загрузки
 ```
 git commit -m 'Commit description'         // закоммитить с комментом
