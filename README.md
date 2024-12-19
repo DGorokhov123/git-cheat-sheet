@@ -55,6 +55,8 @@ git restore --staged .       // Unstage все файлы
 ```
 ```
 git restore <file>           // откатить modified файл
+git diff                     // посмотреть разницу с предыдущей версией
+git diff --staged            // включая staged файлы
 ```
 ## Коммиты и загрузки
 ```
