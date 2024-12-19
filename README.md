@@ -46,6 +46,23 @@ git commit -m 'Commit description'         // закоммитить с комм
 git push -u origin master                  // Первая загрузка проекта в удаленный репозиторий
 git push                                   // Любая последующая загрузка
 ```
+```
+                     ПРАВИЛА КОММЕНТОВ
+feat:                                      // новая фича
+fix:                                       // исправление ошибки
+BREAKING CHANGE:                           // нарушается обратная совместимость!!!
+LGS-239:                                   // тикет в джире
+something with #123                        // тикет в гите
+docs: style: refactor: perf: test:         // прочие
+```
+конвенциональные коммиты выглядят вот так:
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer]
+```
 ## Лог коммита: что внутри?
 ```
 git log               // посмотреть лог коммитов
