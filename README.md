@@ -54,6 +54,7 @@ git diff --staged            // включая staged файлы
 ```
 git commit -m 'Commit description'         // закоммитить с комментом
 git push -u origin master                  // Первая загрузка проекта в удаленный репозиторий
+git push -u origin <ветка>                 // загрузка ветки
 git push                                   // Любая последующая загрузка
 Esc + :qa! + Enter                         // Выйти из гребаного Vim
 ```
@@ -112,3 +113,4 @@ git merge <ветка>                          // слить ветку в те
 git branch -d <ветка>                      // удалить ветку мягко (если слита)
 git branch -D <ветка>                      // удалить ветку жестко (похуй на потери)
 ```
+some words
