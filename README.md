@@ -55,10 +55,11 @@ git diff --staged            // включая staged файлы
 ```
 git commit -m 'Commit description'         // закоммитить с комментом
 git push -u origin master                  // Первая загрузка проекта в удаленный репозиторий
-git push -u origin <ветка>                 // загрузка ветки
+git push -u origin <ветка>                 // первая загрузка ветки
 git push                                   // Любая последующая загрузка
-Esc + :qa! + Enter                         // Выйти из гребаного Vim
+git push <ветка>                           // последующая загрузка ветки
 git pull                                   // вытянуть текущую ветку
+Esc + :qa! + Enter                         // Выйти из гребаного Vim
 ```
 ```
                      ПРАВИЛА КОММЕНТОВ
